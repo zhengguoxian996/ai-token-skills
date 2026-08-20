@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI-TOKEN 云端 ComfyUI"
+  short_description: "直接检查、运行并验证 AI-TOKEN 云端 ComfyUI 工作流"
+  default_prompt: "使用 $ai-token-cloud-comfyui 检查并运行我提供的云端 ComfyUI API 格式工作流。"

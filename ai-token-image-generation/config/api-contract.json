@@ -1,0 +1,12 @@
+{
+  "documentation_url": "https://www.ai-token.vip/dashboard/api-docs",
+  "base_url": "https://www.ai-token.vip/v1",
+  "models_url": "https://www.ai-token.vip/v1/models",
+  "marketplace_url": "https://www.ai-token.vip/api/model-marketplace",
+  "selector_url": "https://www.ai-token.vip/api/content/ai-models/selector?section=generate",
+  "generations_url": "https://www.ai-token.vip/v1/images/generations",
+  "reviewed_on": "2026-09-05",
+  "documentation_bundle_sha256": "d798fd806b058a884a964bfafd63c70c84f21ef5b88a67c87a238db738f713c9",
+  "gateway_mapping": "legacy-size-quality-v1",
+  "local_config_path": ".local/config.json"
+}

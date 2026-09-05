@@ -4,6 +4,7 @@
 
 ## 可用技能
 
+- [`ai-token-image-generation`](ai-token-image-generation/SKILL.md)：图片生成(Ai-token)，使用个人 API Key 选择线路、积分和参数，生成一次成功结果并保存到指定目录。
 - [`ai-token-cloud-comfyui`](ai-token-cloud-comfyui/SKILL.md)：直接检查、校验、执行和监控用户提供的 AI-TOKEN 云端 ComfyUI API 工作流。
 
 ## 安装

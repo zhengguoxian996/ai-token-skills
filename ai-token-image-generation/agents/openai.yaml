@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片生成(Ai-token)"
+  short_description: "使用 AI-TOKEN API Key 选择线路、积分与参数生图，保存本地并防止重复成功"
+  default_prompt: "使用 $ai-token-image-generation，通过 AI-TOKEN API 选择模型和参数生成图片，并保存到我指定的目录。"

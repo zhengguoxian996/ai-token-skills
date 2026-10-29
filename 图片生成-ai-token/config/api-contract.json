@@ -1,0 +1,20 @@
+{
+  "documentation_url": "https://ai-token.vip/dashboard/api-docs",
+  "documentation_catalog_url": "https://ai-token.vip/api/api-docs",
+  "documentation_revision": "8d5cf96bda016fd402ac3aba",
+  "documentation_sha256": "acc5b5ec5f22b7fbbc68abe240e177dd07308beceb2bc03952c25664f3c5186e",
+  "reviewed_image_document_id": "m-9566b539cfb8e2aa9ec2c374",
+  "base_url": "https://ai-token.vip/v1",
+  "models_url": "https://ai-token.vip/v1/models",
+  "marketplace_url": "https://ai-token.vip/api/model-marketplace",
+  "selector_url": "https://ai-token.vip/api/content/ai-models/selector?section=generate",
+  "edit_selector_url": "https://ai-token.vip/api/content/ai-models/selector?section=edit",
+  "generations_url": "https://ai-token.vip/v1/images/generations",
+  "edits_url": "https://ai-token.vip/v1/images/edits",
+  "results_url": "https://ai-token.vip/v1/images/results",
+  "resume_url_template": "https://ai-token.vip/v1/images/tasks/{task_id}/resume",
+  "reviewed_on": "2026-10-28",
+  "gateway_mapping": "explicit-image-parameters-v2",
+  "result_delivery": "storage",
+  "local_config_path": ".local/config.json"
+}

@@ -4,8 +4,7 @@
 
 ## 可用技能
 
-- [`ai-token-image-generation`](ai-token-image-generation/SKILL.md)：图片生成(Ai-token)，使用个人 API Key 选择线路、积分和参数，生成一次成功结果并保存到指定目录。
-- [`ai-token-cloud-comfyui`](ai-token-cloud-comfyui/SKILL.md)：直接检查、校验、执行和监控用户提供的 AI-TOKEN 云端 ComfyUI API 工作流。
+- [图片生成（Ai-token）](图片生成-ai-token/SKILL.md)：使用个人 API Key 选择线路、模型、积分与参数，生成图片或上传参考图编辑图片，并查询、恢复原任务和保存本地结果。
 
 ## 安装
 
@@ -13,8 +12,12 @@
 
 `agents/openai.yaml` 是 OpenAI/Codex 的可选界面适配，不是核心技能流程的运行前提。
 
+技能使用中文名称与中文技能根目录。当前显示名称为“图片生成（Ai-token）”，目录及 `SKILL.md` 标识为 `图片生成-ai-token`，调用名为 `$图片生成-ai-token`；保留标准文件名和技术脚本名。
+
+从旧 `ai-token-image-generation` 目录升级时，请保留当前用户原有的完整 `.local/` 并迁移到新安装目录，避免丢失密钥、幂等键和任务记录。不要同时运行两个安装副本，不要把私有数据放进分发包。依赖脚本固定摘要的宿主桥接器需先适配验证新版脚本，再更新安装。
+
 ## 安全说明
 
-- 使用前阅读目标技能的 Required Inputs 和 Safety Boundaries。
+- 使用前阅读目标技能的输入要求、执行与结果恢复流程。
 - 云端地址、工作流、用户文件和凭据不得提交到本仓库。
 - 付费或消耗算力的执行必须获得明确授权，并设置最大提交次数。

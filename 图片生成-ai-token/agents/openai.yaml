@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片生成（Ai-token）"
+  short_description: "使用 AI-TOKEN 选择模型与积分，生成或编辑参考图片，保存本地并恢复原任务"
+  default_prompt: "使用 $图片生成-ai-token，通过 AI-TOKEN 选择模型和参数生成或编辑图片，并保存到我指定的目录。"

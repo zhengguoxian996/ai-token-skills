@@ -9,6 +9,12 @@ This repository contains only AI-TOKEN Agent Skills that are intended for extern
 - Never copy a developer-only skill into this repository until it has passed an explicit public-release review.
 - Do not add local project history, internal issue archives, deployment records, production configuration, or private workflow payloads.
 
+## Published Skill Naming
+
+- 后续发布的技能使用中文名称和中文技能根目录名；`SKILL.md` 的 `name` 必须与技能根目录名一致。
+- 技能标题、界面显示名、仓库目录清单和安装说明使用一致的中文名称；更名时同步更新路径、技能调用引用及相关集成。
+- 保留 `SKILL.md` 等规范要求的文件名；脚本、配置和接口标识按其技术约定命名。
+
 ## Commit and Push Rules
 
 - Files inside this repository may be committed only after public-release review and validation.

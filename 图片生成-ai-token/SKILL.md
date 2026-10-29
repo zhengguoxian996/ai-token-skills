@@ -2,6 +2,8 @@
 name: 图片生成-ai-token
 description: 使用用户的 ai-token.vip API Key 生成图片，或上传参考图按提示词编辑图片；选择线路、模型、积分与参数，保存本地结果，并查询或恢复原任务。用户提到“图片生成（Ai-token）”、AI-TOKEN 生图、图生图、换背景、改图或多图融合时使用；云端 ComfyUI 工作流另行处理。
 metadata:
+  skill_id: "71771dc1-c99e-4a23-974a-3d9d79b54d3e"
+  version: "1.0.0"
   display_name: "图片生成（Ai-token）"
   category: "基础/图像生成"
 ---
